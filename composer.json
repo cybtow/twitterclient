@@ -1,0 +1,27 @@
+{
+    "name": "cybtow/twitterclient",
+    "type": "library",
+    "description": "A client for API Twitter, based on abraham/twitteroauth",
+    "keywords": ["twitter", "api", "client"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cybtow",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/cybtow/twitterclient",
+        "issues": "https://github.com/cybtow/twitterclient/issues"
+    },
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "abraham/twitteroauth": "^0.7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cybtow\\TwitterClient\\": "src"
+        }
+    }
+}
+
