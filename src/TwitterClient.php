@@ -4,6 +4,11 @@ namespace Cybtow\TwitterClient;
 
 use Abraham\TwitterOAuth\TwitterOAuth;
 
+/**
+ * TwitterClient
+ * @see https://github.com/cybtow/twitterclient
+ * @uses https://github.com/abraham/twitteroauth
+ */
 class TwitterClient
 {
     const API_TWITTER_OAUTH_AUTHENTICATE_URL = 'https://api.twitter.com/oauth/authenticate?oauth_token=';
